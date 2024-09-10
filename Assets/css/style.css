@@ -4,20 +4,33 @@
 }
 
 .geral{
-    background-color:aqua ;
+    
     height: 900px;
 }
 
 .container{
     width: 900px;
-    background-color: aquamarine;
+    
     
 
+}
+.banner{
+    background-image: url(../img/espaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    height: 550px;
 }
 
 section{
     display: flex;
     justify-content: center;
+}
+
+.meu-menu{
+    background-color: black;
 }
 .menu{
     display: flex;
@@ -29,27 +42,188 @@ section{
 .menu-left{
     display: flex;
     flex: 2;
-    background-color: bisque;
+    background-color: black;
 
 }
 
 .menu-right{
     display: flex;
     flex: 1;
-    background-color: burlywood;
+    justify-content: flex-end;
 }
 
 .logo{
-    background-color: red;
-    border-radius: 70px;
+    background-image: url(../img/astronauta.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100px;
+    border-radius: 100px;
     width: 70px;
     height: 70px;
     margin: 1px;
 }
-
-.banner{
+.links{
     display: flex;
-    background-color: cadetblue;
-    height: 200px;
+    align-items: center;
+    margin: 10px;
 
 }
+.links, a{
+    text-decoration: none;
+    margin: 7px;
+    font-weight: bold;
+    color:rgb(117, 119,121) ;
+    font-family: "Open Sans" sans serif;
+   
+}
+
+a:hover{
+    color: chocolate;
+    letter-spacing: 2px;
+}
+
+
+.news{
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.news-left{
+    flex: 2;
+    background-color: white;
+}
+
+.news-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo{
+    color: white;
+    align-items: center;
+}
+
+.eventos{
+    display: flex;
+    width: 970px;
+    height: 250px;
+    justify-content: space-around;
+ 
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 400px;
+   
+
+}
+.evento1{
+    background-image: url(../img/mundosenai.png);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+
+
+    
+    
+    
+
+}
+.evento2{
+    background-image: url(../img/inovasenai.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    background-position: center;
+    
+    
+    
+
+}
+.evento3{
+    background-image: url(../img/grandprix.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    background-position: center;
+    
+    
+    
+
+}
+
+.evento1,.evento2,.evento3{
+   flex:1;
+    
+    margin: 10px;
+    background-size: 200px;
+    border-radius: 20;
+    
+}
+
+footer{
+    background-color: green;
+}
+p{
+    font-size:xx-large;
+    
+}
+
+.container3{
+    background-image: url(../img/universo.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 400px;
+   justify-content: space-around;
+   width: 100%;
+   justify-content: space-around;
+
+   
+
+}
+.info{
+display: flex;
+height: 300px;
+justify-content: center;
+
+
+}
+.descrição{
+flex:1;
+  width: 400px;
+
+
+}
+    
+
+.predio{
+    background-image: url(../img/senai1.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 200px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+ 
+
+}
+.fachada{
+    background-image: url(../img/senai2.jfif);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 50%;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    
+}
+.container4{
+    display: flex;
+justify-items: center;
+margin-top: 2%;
+}
+
+    
