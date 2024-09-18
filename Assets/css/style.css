@@ -109,11 +109,12 @@ a:hover{
 .eventos{
     display: flex;
     background-repeat: no-repeat;
-    background-position: 50%;
-    height: 225px;
-    width: 950px;
+  
+    height: 200px;
+    width: 900px;
     justify-content:space-around;
-    padding-left: 30%;
+    margin-top: 3%;
+margin-left: 500px;
     
     
 
@@ -123,39 +124,36 @@ a:hover{
 }
 .evento1{
     background-image: url(../img/mundosenai.png);
-    
+    background-size: 200px 300px;
     background-repeat: no-repeat;
-    border-radius: 20px;
-
-    background-position: -8px;
-
-
-
-
+    background-position: center;
+    align-items: center;
     
-    
-    
+
+
+
+   
 
 }
 .evento2{
-    background-image: url(../img/inovasenai.jpg);
+    background-image:url(../img/inovasenai.jpg);
+    background-size: 300px 200px;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    align-items: center;
     background-position: center;
-    background-position: -8px;
 
-    
-    
-    
+
     
 
 }
 .evento3{
     background-image: url(../img/grandprix.jpg);
     background-repeat: no-repeat;
-    border-radius: 20%;
+ align-items: center;
     background-position: center;
-    background-position: -8px;
+    
+    background-size: 250px 300px;
+
     
     
     
@@ -166,8 +164,8 @@ a:hover{
 .evento1,.evento2,.evento3{
    flex:1;
     
-    margin: 15px;
-    background-size: 300px;
+    margin-left: 10%;
+    border-radius: 10%;
     
     
     
@@ -245,7 +243,11 @@ height: 350px;
     
 
 }
- 
+.container5{
+    display:flex;
+    justify-content: center;
+   
+}
 @media screen and (max-width: 1339px) {
     .eventos{
         display: flex;
@@ -280,4 +282,5 @@ height: 350px;
        
     
     }
-  } 
+
+  }
